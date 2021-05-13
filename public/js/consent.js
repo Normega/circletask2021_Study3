@@ -15,7 +15,7 @@ var consenttext = '<div>'+
  '<p class="consent">The benefits I may expect to receive from this study are: ' +
  '<br>(a) an appreciation of research on person perception, learning, and state of mind,' +
  '<br>(b) an opportunity to contribute to scientific research, and ' +
- '<br>(c) course credit for Psychology 100 or 201. </p>' +
+ '<br>(c) financial compensation through Prolific. </p>' +
  '<p class="consent"><b>2.	The procedure, lasting up to 1 hour, will be as follows: </b>' +
  '<br>1) I will breathe along with a circle that pulses (expands and contracts) on my computer screen; ' +
  '<br>2) I will monitor my breathing and report whether it is speeding up, slowing down, or not changing; and ' +

@@ -165,7 +165,7 @@ jsPsych.plugins["bart-task"] = (function () {
         var radius = startRadius;
 
         var doneTrial = false;    
-        console.log("BARTlimit: ", trial.bartLimit, "Trial Number: ", trial.trialNumber);
+        //console.log("BARTlimit: ", trial.bartLimit, "Trial Number: ", trial.trialNumber);
 
         function getGradient(){
             var gradient = ctx.createRadialGradient(
