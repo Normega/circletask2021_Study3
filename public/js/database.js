@@ -50,6 +50,12 @@ var pData = {
     BARTtotalpumps: 0,
     BARTburst: 0,
 
+    //DEMOGRAPHICS
+    Gender: "",
+    Age: "",
+    Language: "",
+    Country: "",
+
     //MAIA QUESTIONNAIRE
     MAIA_01: "",
     MAIA_02: "",

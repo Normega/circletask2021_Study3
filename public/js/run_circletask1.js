@@ -18,7 +18,7 @@ var circle1_instruct = {
         instruct_keypressalong,        
         
         "<p><b>Noticing Change</b></p>" +
-        "<p class='description'p>After you breathe along with the circle for up to a minute " +
+        "<p class='description'>After you breathe along with the circle for up to a minute " +
         "we will ask if your breathing" +
         "<em_black> sped up, slowed down, </em_black> or <em_black> stayed the same.</em_black> </p>"+
         "<p>We will also ask you to rate how confident you are in your decision.</p>",

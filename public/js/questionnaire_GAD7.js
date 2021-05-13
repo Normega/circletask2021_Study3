@@ -1,6 +1,5 @@
 /*
 GA-7 
-
 */
 
 var GA7_items = [
@@ -50,14 +49,13 @@ Items are pre-ordered in this scale so do not randomize
      
     },    
  };
- 
 
  var GA7_instruct = {
     type: "html-keyboard-response",
     stimulus: "<p class='image'><img style='width:256px; height:256px;' src='/assets/questionnaire.png' /></p>",
     choices: ['ArrowRight'], 
     prompt: "<p class='description'>We'd like you " +
-            "to answer some questions about feelings of anxiety.</p><br>" + 
+            "to answer some questions about any feelings of anxiety you may have.</p><br>" + 
             "<p class='description'>Press <em_black>RIGHT ARROW</em_black> to continue.</p>",    
     post_trial_gap: 500
 };

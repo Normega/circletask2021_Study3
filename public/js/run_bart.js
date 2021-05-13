@@ -10,8 +10,6 @@ function generateBARTtrials(numtrials) {
     return bucket;
 }
 
-
-
 //BART TASK
 
 // pages of instructions for task 1 practice trials
@@ -23,18 +21,18 @@ var bart_instruct = {
     type: "instructions",
     pages: [
         "<p><b>BART Task (A)</b></p>" +
-        "<p>In this task, you will be presented with 20 balloons one at a time.</p>" +
-        "<p>For each balloon, press the <em_blue>UP ARROW</em_blue> to increase the size of the balloon. " +
-        "Each time you increase the balloon size you will earn a temporary point.</p>"+
+        "<p class='description'>In this task, you will be presented with 20 balloons one at a time.</p><br>" +
+        "<p class='description'>For each balloon, press the <em_blue>UP ARROW</em_blue> to pump up the balloon. " +
+        "Each time you increase the balloon size you will earn a temporary point.</p><br>"+
         
-        "<p>At any time, you can press the <em_red>DOWN ARROW</em_red> to stop inflating the balloon and move " +
-        "your points to your secure bank. Your goal is to bank as many points as you can across the 20 balloons.</p>"+
+        "<p class='description'>At any time, you can press the <em_red>DOWN ARROW</em_red> to stop inflating the balloon and move " +
+        "your points to your secure bank. Your goal is to bank as many points as you can across the 20 balloons.</p><br>"+
 
-        "<p>However, every time you inflate the balloon there is a chance that it will <em_black>POP</b>.</p>" +
+        "<p class='description'>However, every time you inflate the balloon there is a chance that it will <em_black>POP</b>.</p><br>" +
         
-        "<p>If the balloon pops, you lose all your temporary points for that balloon (the bank points remain safe).</p>" +
+        "<p class='description'>If the balloon pops, you lose all your temporary points for that balloon (the bank points remain safe).</p><br>" +
 
-        "<p>You will have to figure out how risky to be in inflating the balloon. <br>" +
+        "<p class='description'>You will have to figure out how risky to be in inflating the balloon. <br>" +
         "Too safe, and you won't earn many points for banking.<br>" +
         "Too risky, and you'll pop before you have a chance to bank your points</p>",
         
