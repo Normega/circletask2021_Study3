@@ -114,8 +114,17 @@ function resetLogVars(){            //only for things within trial, don't reset 
     pData.DetectedEarly = false;
     pData.EntrainOK = false;
     pData.Arousal = "";
-    pData.Confidence = "";
+    pData.Confidence = "";    
     
+}
+
+function resetBART(){
+    pData.BARTpoints = 0;
+    pData.BARTpumps = 0;
+    pData.BARTlimit = 0;
+    pData.BARTtotalpoints = 0;
+    pData.BARTtotalpumps = 0;
+    pData.BARTburst = 0;
 }
 
 var images = [

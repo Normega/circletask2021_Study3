@@ -1,20 +1,24 @@
 // experiment main settings
 const EXPERIMENT_START_TIME = new Date().getTime();
-const EZPULSES = 8; // Easy to set all at once
+
+//these are mostly for debugging
+const EZPULSES = 8; // Easy to set all at once  default = 8
+const NUMBER_OF_TRIALS_1 = 15; // original: 15
+const NUM_BART_TRIALS = 20; //the proportion of time you must be tracking the circle with keyboard to pass, original: 20
+
+//CIRCLE TASK
 const NUMBER_OF_ENTRAIN_PULSES = EZPULSES;
 const NUMBER_OF_PRACTICE_PULSES_1 = EZPULSES;
 const NUMBER_OF_PRACTICE_PULSES_2 = EZPULSES;
 const NUMBER_OF_PULSES_1 = EZPULSES; // original: 8 --> 10
 const NUMBER_OF_PULSES_2 = EZPULSES; // original: 12 --> 10
-const NUMBER_OF_TRIALS_1 = 15; // original: 15
 const NUMBER_OF_TRIALS_2 = 12; // original: 10
 
 const CRIT_TRACK_ACC = 80; //the proportion of time you must be tracking the circle with keyboard to pass
 const FIRST_PULSE_TIME = 5000; //first pulse time in ms
 const startRadius = 50;       
 
-
-const NUM_BART_TRIALS = 20; //the proportion of time you must be tracking the circle with keyboard to pass
+//BART TASK
 const MAX_BART_PUMPS = 64; // the number of pumps the balloon can take without popping will be between 1 and this value
 
 //TRIAL CONTROL

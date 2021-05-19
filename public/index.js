@@ -1,5 +1,5 @@
 // Circle Task
-// v.0.5
+// v.0.7
 // Authors: Kyle Logie and Norman Farb
 // Email: norman.farb@utoronto.ca
 
@@ -17,6 +17,7 @@ var maintimeline = []; // the main experiment timeline
 maintimeline.push(preload); //helpers.js
 maintimeline.push(welcome_trial); //instructions.js
 
+
 maintimeline.push(QC_node); //instructions.js
 maintimeline.push(consent_node); //consent.js
 maintimeline.push(validateID_node); //getID.js
@@ -25,11 +26,14 @@ maintimeline.push(demographics_node); //questionnaire_Demographics.js
 
 maintimeline.push(entrain_node);    //entrain.js
 maintimeline.push(practice_node);   //practice1.js
-
-
 maintimeline.push(practice2_node);    //practice2.js  
+
+
 maintimeline.push(circle1_instruct);    //run_circletask1.js
 maintimeline.push(circle1_node);    //run_circletask1.js
+
+maintimeline.push(bart_instruct);    //run_circletask1.js
+maintimeline.push(bart_node);    //run_circletask1.js
 
 //maintimeline.push(graph_trial);
 
@@ -40,10 +44,11 @@ maintimeline.push(GA7_node); //questionnaire_MAIA.js
 maintimeline.push(PHQ9_node); //questionnaire_MAIA.js    
 maintimeline.push(PHQ15_node); //questionnaire_MAIA.js    
 
+maintimeline.push(circle1_repeat_instruct);    //run_circletask1.js
+maintimeline.push(circle1_repeat_node);    //run_circletask1.js
 
-maintimeline.push(bart_instruct);    //run_circletask1.js
-maintimeline.push(bart_node);    //run_circletask1.js
-
+maintimeline.push(bart_repeat_instruct);    //run_circletask1.js
+maintimeline.push(bart_repeat_node);    //run_circletask1.js
 
 maintimeline.push(debrief_trial);    //instructions.js*/
 maintimeline.push(goodbye_trial);    //instructions.js*/

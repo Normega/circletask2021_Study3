@@ -20,18 +20,12 @@ var debrief_trial = {
     prompt: "<p class='description'> " +
     "<b>EXPERIMENT COMPLETE: DEBRIEFING INFORMATION</b>"+
     "</p><br><p class='description'> " +
-    "This study is in the area of cognitive and affective psychology, focusing on how we come to know what is happening in our own bodies. Attention allows for the selection of motivationally relevant signals from a sea of information. Across the external senses, attending within a sensory domain selectively enhances domain-specific cortical representations, suggesting that attentional modulation of sensory representation is a fundamental principle of the human nervous system. However, compared to the external senses, little is known of how attention modulates interoception, the sense of the body’s internal state. This research employs a novel approach to the measurement of interoceptive attention, allowing for the identification of a distinct attentional network for interoception. The characterization of this network promises new insights into the mechanisms of the neural network that supports visceral sensation, the embodied sense of self, and emotional experience." +
+    "Thanks for completing the study! It focused on how we come to know what is happening in our own bodies. Compared to the external senses, little is known about interoception, the sense of the body’s internal state. This research employs a novel approach to the measurement of interoceptive attention." +
     "</p><br><p class='description'> " +
-    "The main dependent measure in this task was your ability to detect changes in your breathign when you matched your breath to the circle. This ability is compared to your ability to detect changes using vision alone, with the idea that having the breath matched to the circle could help with the task or be a distraction depending on your ability to integrate body sensation into your momentary experience. The independent variable was whether the circle changed pulsing rate or not. " +
+    "The main dependent measure in this task was your ability to detect changes in your breathing when you matched your breath to the circle. We were interested in how reliable this estimate is, which is why we had you do the task twice. We are also interested whether your ability to detect changes in the breath could predict risk taking behavior in the ballon task." +
     "</p><br><p class='description'> " +
     "This research helps to develop tools for understanding body sensation, which could help predict a person's sense of well-being. Breath integration may be a useful way to probe such awareness relative to other tasks that are already used in research." + 
-    "</p><br><p class='description'> " +
-    "Psy100 Textbook Reference: sensation and perception, pg. 187" +
-    "</p><p class='description'> " +
-    "Additional information can be found in:" +
-    "</p><p class='description'> " +
-    "Farb, N., Daubenmier, J. J., Price, C. J., Gard, T., Kerr, C., Dunn, B., & Mehling, W. E. (2015). Interoception, Contemplative Practice, and Health.Name: Frontiers in Psychology, 6, 763." +    
-    "</p>"+
+   "</p><br>"+
     "<p style='text-align:center;'>Please press <strong>RIGHT ARROW</strong> to continue.</p>",    
     post_trial_gap: 500
 };

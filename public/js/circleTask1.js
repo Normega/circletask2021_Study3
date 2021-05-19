@@ -209,7 +209,7 @@ jsPsych.plugins["circle-task1"] = (function () {
         var expand = true; //start off expanding
         var currPulses = 0;      
                 
-        console.log("Trial type: ", trial.speed, "Change Proportion: ", change);
+        //console.log("Trial type: ", trial.speed, "Change Proportion: ", change);
 
         function getGradient(){
             var gradient = ctx.createRadialGradient(
@@ -280,6 +280,7 @@ jsPsych.plugins["circle-task1"] = (function () {
                 });
                 expand = true;
                 //console.log("dr: ", dr);
+                
                 currPulses++;
                 
                 then = now - (elapsed % onewayTime); // get ready for the next pulse animation
